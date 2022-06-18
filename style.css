@@ -1,0 +1,149 @@
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: hsl(192, 100%, 9%);
+}
+
+* {
+  margin:0;
+  padding: 0;
+}
+body {
+  color: hsl(192, 100%, 9%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+.top-logo{
+
+}
+
+.btn{
+
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px 3px rgba(145, 143, 143, 0.1);
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 60px;
+}
+.try-btn{
+  background-color: #ffffff;
+  
+
+}
+.try-btn:hover{
+  color: hsl(208, 11%, 55%);
+cursor: pointer;
+}
+.top-section{
+    background-image: url("img/bg-hero-desktop.svg");
+    background-color:  hsl(193, 100%, 96%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem; 
+
+
+}
+
+.top-container{
+
+display: flex;  
+align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+
+}
+ p
+{
+margin: 2rem 0;
+}
+
+.top-illustrations{
+  width: 600px;
+  
+}
+
+.get-started-btn{
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+}
+
+.get-started-btn:hover{
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.middle-section{
+  display: flex;  
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 4rem; 
+}
+
+.box{
+  padding: 10rem;
+  border-radius: 10px;
+  border: 1px solid hsl(210, 26%, 88%);
+  box-shadow: 3px 3px 3px  rgba(145, 143, 143, 0.1);
+
+  display: flex;  
+align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.mid-illustrations{
+  width: 100%;
+  
+}
+.box p{
+  color: hsl(208, 11%, 55%);
+}
+
+footer{
+  background-color:  hsl(192, 100%, 9%);
+  padding: 4rem; 
+}
+footer p{
+  color: #ffffff;
+  
+}
+.buttom-logo{
+  color: #ffffff;
+  background-color: ffffff;
+}
+
+.big{
+/* fill */
+}
+
+.buttom-grid{
+  display: grid;
+  /* justify-content: start; */
+  grid-template-columns:2fr 1fr 1fr 1fr;
+  grid-gap: 6.5rem;
+}
+
+.details{
+  display: grid;
+  align-items: baseline;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 2rem;
+  text-align: left;
+}
+
+small{
+  color: #ffffff;
+  float: right;
+}
