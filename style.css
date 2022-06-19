@@ -186,6 +186,10 @@ footer p {
 margin: 1.5rem 0;
 }
 
+ .mid-illustrations:hover, .top-illustrations:hover {
+  transform: scale(1.18);
+}
+
 @media screen and (max-width: 800px) {
   .top-section {
     background-image: url("img/bg-hero-mobile.svg");
