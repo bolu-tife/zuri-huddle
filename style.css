@@ -234,7 +234,7 @@ color: hsl(193, 100%, 96%);
       border: 1px solid hsl(210, 26%, 88%); 
       box-shadow: 3px 3px 3px  rgba(145, 143, 143, 0.1);
     text-align: center;
-      
+    grid-template-columns: 1fr;
     align-items: center;
       justify-content: space-between;
       gap: 3rem;
@@ -252,7 +252,6 @@ color: hsl(193, 100%, 96%);
 
 
     .box>.box-texts {
-      /* grid-column: 1; */
       grid-row: 2;
     }
       
