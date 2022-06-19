@@ -8,6 +8,8 @@ h3 {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+
 }
 body {
   color: hsl(192, 100%, 9%);
@@ -23,8 +25,7 @@ body {
   justify-content: space-between;
   margin-bottom: 5rem;
 }
-.top-logo {
-}
+
 
 .btn {
   border: 0;
@@ -60,7 +61,7 @@ p {
 }
 
 .top-illustrations {
-  width: 600px;
+  width: 100%;
 }
 
 .get-started-btn {
@@ -82,7 +83,7 @@ p {
 }
 
 .box {
-  padding: 10rem;
+  padding: 5rem;
   border-radius: 10px;
   border: 1px solid hsl(210, 26%, 88%);
   box-shadow: 3px 3px 3px rgba(145, 143, 143, 0.1);
@@ -126,7 +127,7 @@ footer p {
   position: relative;
   top: 6rem;
   text-align: center;
-  width: 30%;
+  width: 65%;
 }
 
 .buttom-grid {
@@ -176,12 +177,16 @@ footer p {
   text-decoration: underline hsl(193, 100%, 96%);
 }
 
+.heading-texts
+{
+  width: 80%;
+}
 .heading-texts p,
  .box p{
 margin: 1.5rem 0;
 }
 
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .top-section {
     background-image: url("img/bg-hero-mobile.svg");
     padding: 2rem;
@@ -193,9 +198,7 @@ margin: 1.5rem 0;
     text-align: center;
   }
 
-  .top-illustrations {
-    width: 300px;
-  }
+
 
   .top-logo {
     width: 50%;
