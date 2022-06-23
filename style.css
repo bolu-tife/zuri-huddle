@@ -247,6 +247,10 @@ margin: 1.5rem 0;
     grid-template-columns: 1fr;
     grid-gap: 0;
   }
+  .reverse{
+    /* display: flex; */
+    flex-direction: column-reverse;
+  }
 
   .socials {
     justify-self: center;
